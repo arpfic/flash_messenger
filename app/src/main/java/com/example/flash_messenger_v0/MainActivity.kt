@@ -51,7 +51,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun fetchIPAddress() {
         val client = OkHttpClient()
-
         val request = Request.Builder()
             .url("https://api.myip.com/")
             .build()
